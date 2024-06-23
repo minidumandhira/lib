@@ -9,6 +9,7 @@
 #container1{
     width: 100vw;
     height: 100vh;
+    margin: 20px 0px;
 
     background-repeat: no-repeat;
     background-size: cover;
@@ -176,6 +177,7 @@ input{
     width: 100vw;
     height: 100vh;
     display: flex;
+    margin: 20px 0px;
     justify-content: center;
     align-items: center;
     background-image: url(images/bookreadingboy.avif);
@@ -246,6 +248,7 @@ button{
         width: 100vw;
         height: 100vh;
         display: flex;
+        margin: 20px 0px;
         justify-content: center;
         align-items: center;
         background-image: url(images/bookreadingboy.avif);

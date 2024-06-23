@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
 /*----------------------------------------------------First page-----------------------------------------------------*/
 
 #container1{
@@ -131,6 +139,7 @@ nav{
 
 .search-box{
     width: 600px;
+    height: 38px;
     margin: 50px auto 0;
     background: wheat;
     border-radius: 20px;
@@ -138,10 +147,10 @@ nav{
 
 }
 
-.row{
+.row2{
     display:flex;
     align-items: center;
-    padding: 10px 20px;
+    padding: 2px 20px;
 }
 
 input{
@@ -158,6 +167,7 @@ input{
     background: transparent;
     border:0;
     outline:0;
+    text-align: right;
 }
 
 .btn .fa-solid{
@@ -301,7 +311,7 @@ img{
 .z4{
     background: purple;
 }
-h4{
+.m1 {
     text-align: center;
     color: aliceblue;
     font-size: 25px;

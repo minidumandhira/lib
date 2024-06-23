@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*----------------------------------------------------First page-----------------------------------------------------*/
+
+#container1{
+    width: 100vw;
+    height: 100vh;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.backvideo{
+    position:absolute;
+    right:0;
+    height: 180%;
+    padding-bottom: 20%;
+    z-index: -1;
+}
+
+.wel{
+    padding-top: 15%;
+    text-align: center;
+    font-weight:600;
+    font-size: 50px;
+    
+    color:whitesmoke; 
+    transition: 0.5s;
+}
+
+.ani h1:hover{
+    -webkit-text-stroke: 3px plum;
+    color:rgb(185, 12, 154);
+    
+}
+
+
+  
+.logo{
+    width: 300px;
+    height: 400px;
+    padding-left: 0%;
+    padding-top: 2%;
+}
+
+nav{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   background-color: rgba(165, 42, 42, 0.765);
+   height: 70px;
+   
+   
+
+}
+ nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+ }
+ nav ul li a{
+    color:aliceblue;
+    font-size: 18px;
+    text-decoration: none;
+    position: relative;
+ }
+ nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: rgb(228, 218, 228);
+    position: absolute;
+    left:0;
+    bottom: -6px;
+    transition: 0.5s;
+ }
+ nav ul li a:hover::after{
+    width: 100%;
+ }
+
+ 
+
+
+.slg2{
+   
+    padding-top: 15%;
+    align-items: center;
+    text-align: center;
+    color: aliceblue;
+   
+}
+
+
+#container2{
+    width: 100vw;
+    height: 100vh;
+}
+
+
+/*----------------------------------------------------Third page-----------------------------------------------------*/
+
+#container3{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+    background-image: url(images/bookreadingboy.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title{
+    color: aliceblue;
+    padding-left: 2%;
+    text-shadow: 4px;
+    
+}
+.content{
+    width: 20%;
+    
+    margin: 15px;
+    box-sizing: border-box;
+    float: left;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0,0.26),
+    0 10px 10px rgba(0, 0, 0,0.22);
+    transition: .4s;
+    background: rgba(255, 228, 196, 0.562)
+}
+.content :hover{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16),
+    0 3px 6px rgba(0, 0, 0,0.22);
+    transform: translate(0px,-8px);
+}
+img{
+    width: 250px;
+    height: 400px;
+    align-items: center;
+    margin: 0 auto;
+    display: block;
+    border-top: 20px;
+}
+button{
+    text-align: center;
+    font-size:25px;
+    color: white;
+    width: 100%;
+    border:0;
+    cursor: pointer;
+    outline: none;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 5px;
+}
+.b1{
+    background: green;
+}
+.b2{
+    background: green;
+}
+.b3{
+    background: green;
+}
+.b4{
+    background:red;
+}
+
+/*----------------------------------------------------Fourth page-----------------------------------------------------*/
+
+#container4{
+    
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 50px 0;
+        background-image: url(images/bookreadingboy.avif);
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+.cato{
+    width: 100vw;
+    height: 100vh;
+    padding-bottom: 15%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,2fr));
+    grid-gap: 15px;
+    margin-top: 10px;
+}
+.content2{
+    width: 200px;
+    margin: 15px;
+    height: 30%;
+    box-sizing:content-box;
+    float: left;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0,0.26),
+    0 10px 10px rgba(0, 0, 0,0.22);
+    transition: .4s;
+    background: rgba(255, 228, 196, 0.637);
+    
+    
+}
+.content2 :hover{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16),
+    0 3px 6px rgba(0, 0, 0,0.22);
+    transform: translate(0px,-8px);
+}
+.topic{
+    text-align: center;
+    color: aliceblue;
+    padding-left: 10px;
+}
+img{
+    width: 200px;
+    height: 180px;
+    align-items: center;
+    margin: 0 auto;
+    display: block;
+    border-top: 20px;
+}
+.z4{
+    background: purple;
+}
+h4{
+    text-align: center;
+    color: aliceblue;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+

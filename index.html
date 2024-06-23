@@ -2,9 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-library</title>
     <link rel="stylesheet" href="style.css">
+
+
+    <!--------------------Renuja------------------------->
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js">
+    </script>
+
 </head>
 <body>
 
@@ -41,6 +54,30 @@
       
     </div>
     
+
+     <!--------------------------second page------------------------->
+   <div id="container2">
+
+      <div id="page2d1">
+           <span>Reday to exploer the world?</span> <br> 
+           Just type the book title.
+      </div>
+      <div id="page2d2">
+  
+          <div class="search-box">
+              <div class="row">
+                  <input type="text" id="input-box" placeholder="Search the book titile"
+                  autocomplete="off">
+                      <button class="b1"><i class="fa-solid fa-magnifying-glass"></i></button>
+                  </input>
+              </div>
+          </div>
+      </div>
+  
+     </div>
+
+
+
    <!---------------------------third page--------------------------->
    <div id="container3">
      <h2 class="title">TOP PICKERS <br>THIS WEEK</h2>
@@ -140,6 +177,137 @@
      </div>
 
    </div>
+
+
+    <!----------------------------fifth page--------------------------->
+    <div id="container5">
+      <div class="hero">
+          <div class="image-over">
+              <section class="contact">
+                  <h2>
+                      Give us your valubale feedback
+                  </h2>
+  
+                  <form action="#">
+                      <div class="input-box">
+                          <div class="input-field field">
+                              <input type="text" placeholder="Full Name" id="name"
+                              class="item" autocomplete="off">
+                              <div class="error-txt">Full name can't be blank</div>           
+                          </div>
+                          <div class="input-field field">
+                              <input type="text" placeholder="Email Address"
+                              id="email" class="item" autocomplete="off">
+                              <div class="error-txt email">Email address can't be blank</div>
+                          </div>
+                      </div>
+  
+                      <div class="input-box">
+                          <div class="input-field field">
+                              <input type="text" placeholder="Phone Number" id="phone"
+                              class="item" autocomplete="off">
+                              <div class="error-txt">Phone number can't be blank</div>            
+                          </div>
+                          <div class="input-field field">
+                              <input type="text" placeholder="NIC"
+                              id="subject" class="item" autocomplete="off">
+                              <div class="error-txt">NIC can't be blank</div>
+                          </div>
+                      </div>
+  
+                      <div class="textarea-field field">
+                          <textarea name="" id="message" cols="30" rows="10"
+                          placeholder="Your Feedback" class="item" autocomplete="off">
+                          </textarea>
+                          <div class="error-txt">Message can't be blank</div>
+                      </div>
+                      <button type="submit">Submit Your Response</button>
+                  </form>
+  
+              </section>
+          </div>
+
+          <div class="row1">
+              <div class="sub1">
+                  <div class="sub2">
+                      <div class="col">
+                          <div class="counter-box">
+                              <span>
+                                  <i class="fa fa-book"></i>
+                                  <h2 class="counter">215,649</h2>
+                                  <h4>Books</h4>
+                              </span>
+                              
+                          </div>
+                      
+                  </div>
+                  </div>
+                  
+                  <div class="sub2">
+                      <div class="col">
+                          <div class="counter-box">
+                              <span>
+                                  <i class="fa fa-pencil"></i>
+                                  <h2 class="counter">31,529</h2>
+                                  <h4>Authors</h4>
+                              </span>
+                          </div>
+                      </div>
+                  </div>
+              
+              </div>
+              
+
+              <div class="sub1">
+                  <div class="sub2">
+                      <div class="col">
+                          <div class="counter-box">
+                              <span>
+                                  <i class="fa fa-address-card"></i>
+                                  <h2 class="counter">5753</h2>
+                                  <h4>Members</h4>
+                              </span>
+                                  
+                              
+                          </div>
+                      </div>
+                  </div>
+                  
+                  <div class="sub2">
+                      <div class="col">
+                          <div class="counter-box">
+                              <span>
+                                  <i class="fa fa-user"></i>
+                                  <h2 class="counter">128</h2>
+                                  <h4>Visitors Today</h4>
+                              </span>
+                                  
+                          </div>
+                      </div>
+                  </div>
+                  
+              </div>
+              
+
+          </div>
+      </div>    
+ </div>
+
+
+ <script src="https://smtpjs.com/v3/smtp.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+ <script src="script.js"> </script>
+ <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+ <script src="jquery.counterup.min.js"></script>
+
+ <script>
+      jQuery(document).ready(function($){
+          $('.counter').counterUp({
+          delay: 10,
+          time: 1000
+          });
+      });
+ </script>
 
 
   

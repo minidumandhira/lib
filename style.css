@@ -102,6 +102,79 @@ nav{
 }
 
 
+/*----------------------------------------------------Second page-----------------------------------------------------*/
+
+#container2 {
+    width: 100vw;
+    height: 100vh;
+    background-image:url("page 2/library\ book\ shell.jpg");    
+}
+
+#page2d1 {
+    width:100vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: #fff;
+    font-family: "Prompt", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    
+}
+
+#page2d2 {
+    width:100vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search-box{
+    width: 600px;
+    margin: 50px auto 0;
+    background: wheat;
+    border-radius: 20px;
+
+
+}
+
+.row{
+    display:flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+input{
+    flex:1;
+    height: 20px;
+    background: transparent;
+    border:0;
+    outline:0;
+    font-size:18px;
+    color:rgb(12, 12, 12);
+}
+
+b1{
+    background: transparent;
+    border:0;
+    outline:0;
+}
+
+b1 .fa-solid{
+    width:25px;
+    color:#555;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+::placeholder{
+    color: #6b6565;
+}
+
 /*----------------------------------------------------Third page-----------------------------------------------------*/
 
 #container3{
@@ -241,3 +314,156 @@ h4{
     padding-bottom: 10px;
 }
 
+
+/*----------------------------------------------------Fifth page-----------------------------------------------------*/
+
+#container5 {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("Page 2/c5.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-over{
+    background-color: rgba(255, 255, 255, 0.774);
+    border-radius: 10px;
+    width: 60vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.contact h2{
+    font-size: 40px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: "Prompt", sans-serif;
+    color: rgb(190, 140, 32);
+
+}
+
+.contact form{
+    width: 650px;
+    height: 500px;
+    text-align: center;
+}
+
+form .input-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.field .item{
+    width:100%;
+    padding: 18px;
+    background: transparent;
+    border:2px solid wheat;
+    outline:none;
+    border-radius: 6px;
+    font-size: 16px;
+    color: black;
+    margin: 12px 0;   
+}
+
+.field.error .item{
+    border-color: #d93025;
+}
+
+.filed .item::placeholder {
+    color: rgba(255, 255, 255,0.3);
+}
+
+.field .error-txt {
+    font-size: 14.5px;
+    color: #d93025;
+    text-align: left;
+    margin: -5px 0 10px;
+    display: none;
+}
+
+.field.error .error-txt {
+    display: block;
+} 
+
+form .textarea-field .item {
+    resize: none;
+}
+
+form .textarea-field .error-txt {
+    margin-top: -10px;
+}
+
+form button {
+    padding: 12px 32px;
+    background: wheat;
+    border: none;
+    outline: #6b6565;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgb(255, 187, 0);
+    font-size: 16px;
+    color: #333;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: .5s;
+}
+
+form button:hover {
+    box-shadow: inset 0px 0px;
+}
+
+.row1 {
+    width: 40vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.col {
+    flex-basis: 22%;
+    text-align: center;
+    color: #555;
+}
+
+.sub1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.counter-box {
+    width: 150px;
+    height: 150px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px -4px #66676c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+.counter-box .fa {
+    font-size: 20px;
+    color: #009688;
+    display: block;
+}

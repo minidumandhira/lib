@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: "DM Sans", sans-serif;
     font-optical-sizing: auto;
@@ -58,7 +62,7 @@ nav{
    display: flex;
    align-items: center;
    justify-content: space-between;
-   background-color: rgba(245, 222, 179, 0.781);
+   background: linear-gradient(-45deg, #fff,#a08679);
    height: 70px;
    
    
@@ -70,7 +74,7 @@ nav{
     margin: 10px 20px;
  }
  nav ul li a{
-    color:rgb(94, 92, 92);
+    color: #4B3619;
     font-size: 18px;
     text-decoration: none;
     position: relative;
@@ -79,7 +83,7 @@ nav{
     content: '';
     width: 0;
     height: 3px;
-    background: rgb(121, 83, 12);
+    background: #a08679;
     position: absolute;
     left:0;
     bottom: -6px;
@@ -112,7 +116,10 @@ nav{
 #container2 {
     width: 100vw;
     height: 100vh;
-    background-image:url("Page 2,5 images/library\ book\ shell.jpg");    
+    background-image:url(images/123.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;    
 }
 
 #page2d1 {
@@ -123,7 +130,7 @@ nav{
     align-items: center;
     justify-content: center;
     font-size: 50px;
-    color: #fff;
+    color: #black;
     font-family: "Prompt", sans-serif;
     font-weight: 600;
     font-style: normal;
@@ -139,10 +146,10 @@ nav{
 }
 
 .search-box{
-    width: 600px;
-    height: 38px;
+    width: 620px;
+    height: 40px;
     margin: 50px auto 0;
-    background: wheat;
+    background: #fff;
     border-radius: 20px;
 
 
@@ -188,12 +195,13 @@ input{
     width: 100vw;
     height: 100vh;
     display: flex;
-    
+    background-image: url(images/123.png);
     justify-content: center;
     align-items: center;
-   background-color: #765341;
+    background-color: #765341;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 .title{
     color: aliceblue;
@@ -262,9 +270,10 @@ button{
         background-color: #8b6c5c;
         justify-content: center;
         align-items: center;
-        
+        background-image: url(images/123.png);
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: center;
 }
 .cato{
     width: 100vw;
@@ -328,6 +337,7 @@ img{
     width: 100vw;
     height: 100vh;
     background-color: #a08679;
+    background-image: url(images/123.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -345,10 +355,10 @@ img{
 }
 
 .image-over{
-    
+    background-color: rgba(255, 255, 255, 0.774);
     border-radius: 10px;
-    width: 60vw;
-    height: 100vh;
+    width: 45vw;
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -362,7 +372,7 @@ img{
     text-align: center;
     margin-bottom: 10px;
     font-family: "Prompt", sans-serif;
-    color: rgb(235, 179, 77);
+    color: #a08679;
 
 }
 
@@ -381,7 +391,7 @@ form .input-box{
     width:100%;
     padding: 18px;
     background: transparent;
-    border:2px solid wheat;
+    border:2px solid #a08679;
     outline:none;
     border-radius: 6px;
     font-size: 16px;
@@ -394,7 +404,7 @@ form .input-box{
 }
 
 .field .item::placeholder {
-    color: white;
+    color: #000;
 }
 
 .field .error-txt {
@@ -419,13 +429,13 @@ form .textarea-field .error-txt {
 
 form button {
     padding: 12px 32px;
-    background: wheat;
+    background: #a08679;
     border: none;
-    outline: #6b6565;
+    outline: #fff;
     border-radius: 6px;
-    box-shadow: 0 0 10px rgb(255, 187, 0);
+    box-shadow: 0 0 10px #fff;
     font-size: 16px;
-    color: #333;
+    color: #fff;
     letter-spacing: 1px;
     font-weight: 600;
     cursor: pointer;
@@ -464,19 +474,20 @@ form button:hover {
 }
 
 .counter-box {
-    width: 150px;
+    width: 250px;
     height: 150px;
     background: #fff;
+    border: solid 1px #a08679;
     border-radius: 10px;
-    box-shadow: 0 0 20px -4px #66676c;
+    box-shadow: 0 0 20px 5px #535251;
     display: flex;
     align-items: center;
     justify-content: center;
 } 
 
 .counter-box .fa {
-    font-size: 20px;
-    color: rgb(238, 191, 105);
+    font-size: 40px;
+    color: #a08679;
     display: block;
 }
 
@@ -487,32 +498,38 @@ form button:hover {
     width: 100vw;
     min-height: 100vh;
     padding: 2rem;
-    background-color: #b7a198;
+    background-color: #a08679;
     overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
-    
     background-size: cover;
     background-repeat: no-repeat;
+    background: linear-gradient(1deg, #fff,#a08679);
+
 
 }
 
 .slide{
     max-width: 820px;
     height: 600px;
-    background-color: rgb(238, 191, 105);
+    background-color: #b7a198;
     border-radius: 10px;
     overflow: hidden;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     position: absolute;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16),
+    0 3px 6px rgba(0, 0, 0,0.22);
+    transform: translate(0px,-8px);
+    box-shadow: 0 0 20px 5px #474240;
+
 
 }
 
 .contact-slide{
-    border: 22px solid burlywood;
-    background-color: burlywood;
+    border: 22px solid #8b6c5c;
+    background-color: #8b6c5c;
     position: relative;
 } 
 
@@ -544,7 +561,7 @@ form button:hover {
     width: 35px;
     height: 35px;
     border-radius: 5px;
-    background: linear-gradient(45deg, #0d0e0d, #6f7171);
+    background: linear-gradient(-9deg, #ffffff81,#a08679);
     color: #fff;
     text-align: center;
     line-height: 35px;
@@ -565,17 +582,19 @@ iframe{
 
 
 .footer-Bottom{
-    background-color: #0e0e0e;
+    background-color: #b7a198;
     padding: 20px;
     text-align: center;
+    border-top: 1px solid #fff;
 }
 
 .footer-Bottom p{
     color: white;
+    font-weight: bold;
 }
 
 .designer{
-    opacity: 0.7;
+    opacity: 0.5;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 400;
@@ -614,12 +633,12 @@ tr:nth-child(odd){
     color: #e9e4e4;
     align-items: center;
     grid-template-columns: 8fr 4fr;
-    background-color:rgb(238, 191, 105);
+    background-color:#b7a198;
     border-radius: 0.5em;
 }
 
 .clock-container{
-    background-color: rgb(233, 213, 186);
+    background-color: #fff;
     color: #0b0b0b;
     text-align: center;
     font-size: 3.75em;
@@ -630,7 +649,7 @@ tr:nth-child(odd){
 
 .date-container{
     padding: 1em 0;
-    background-color: rgb(238, 191, 105);
+    background-color: #b7a198;
     color: #0d0d0d;
     text-align: center;
     border-radius: 0.5em;

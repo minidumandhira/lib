@@ -188,10 +188,10 @@ input{
     width: 100vw;
     height: 100vh;
     display: flex;
-    margin: 20px 0px;
+    
     justify-content: center;
     align-items: center;
-    background-image: url(images/bookreadingboy.avif);
+   background-color: 	#795C32;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -212,7 +212,7 @@ input{
     box-shadow: 0 14px 28px rgba(0, 0, 0,0.26),
     0 10px 10px rgba(0, 0, 0,0.22);
     transition: .4s;
-    background: rgba(255, 228, 196, 0.562)
+    background: rgba(255, 228, 196, 0.283)
 }
 .content :hover{
     box-shadow: 0 3px 6px rgba(0,0,0,0.16),
@@ -240,16 +240,16 @@ button{
     padding: 5px;
 }
 .b1{
-    background: green;
+    background:	#4B3619;
 }
 .b2{
-    background: green;
+    background: #4B3619;
 }
 .b3{
-    background: green;
+    background: #4B3619;
 }
 .b4{
-    background:red;
+    background:#2B1700;
 }
 
 /*----------------------------------------------------Fourth page-----------------------------------------------------*/
@@ -259,10 +259,10 @@ button{
         width: 100vw;
         height: 100vh;
         display: flex;
-        margin: 20px 0px;
+        
         justify-content: center;
         align-items: center;
-        background-image: url(images/bookreadingboy.avif);
+        background-color: #997950;
         background-repeat: no-repeat;
         background-size: cover;
 }
@@ -287,7 +287,7 @@ button{
     box-shadow: 0 14px 28px rgba(0, 0, 0,0.26),
     0 10px 10px rgba(0, 0, 0,0.22);
     transition: .4s;
-    background: rgba(255, 228, 196, 0.637);
+    background: #997950;
     
     
 }
@@ -310,11 +310,12 @@ img{
     border-top: 20px;
 }
 .z4{
-    background: purple;
+    background:	#4B3619 ;
 }
 .m1 {
     text-align: center;
     color: aliceblue;
+    background-color: #a88455;
     font-size: 25px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -491,7 +492,7 @@ form button:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(page7/background.png);
+    background-color: #DDD0C8;
     background-size: cover;
     background-repeat: no-repeat;
 

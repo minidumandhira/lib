@@ -191,7 +191,7 @@ input{
     
     justify-content: center;
     align-items: center;
-   background-color: 	#795C32;
+   background-color: #765341;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -259,10 +259,10 @@ button{
         width: 100vw;
         height: 100vh;
         display: flex;
-        
+        background-color: #8b6c5c;
         justify-content: center;
         align-items: center;
-        background-color: #997950;
+        
         background-repeat: no-repeat;
         background-size: cover;
 }
@@ -327,7 +327,7 @@ img{
 #container5 {
     width: 100vw;
     height: 100vh;
-    background-image: url("Page 2,5 images/c5.png");
+    background-color: #a08679;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -345,7 +345,7 @@ img{
 }
 
 .image-over{
-    background-color: rgba(255, 255, 255, 0.774);
+    
     border-radius: 10px;
     width: 60vw;
     height: 100vh;
@@ -393,8 +393,8 @@ form .input-box{
     border-color: #d93025;
 }
 
-.filed .item::placeholder {
-    color: rgba(255, 255, 255,0.3);
+.field .item::placeholder {
+    color: white;
 }
 
 .field .error-txt {
@@ -487,12 +487,12 @@ form button:hover {
     width: 100vw;
     min-height: 100vh;
     padding: 2rem;
-    background-color: #fafafa;
+    background-color: #b7a198;
     overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #DDD0C8;
+    
     background-size: cover;
     background-repeat: no-repeat;
 

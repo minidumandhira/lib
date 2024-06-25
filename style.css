@@ -371,11 +371,7 @@ button{
 
 }
 
-.contact{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
 
 
 .contact h2{
@@ -811,20 +807,92 @@ button{
 }
 
 /*----------------------Renuja-----------------------*/
-    #page2d1{
-        font-size: 6vw;
+#page2d1{
+    font-size: 6vw;
+}
 
-    }
-    
-    .search-box{
-        width: 90vw;
-        padding-top: 9px;
-    }
-    
-    #container5{
-        border: 5px solid red;
-    }
+.search-box{
+    width: 90vw;
+    padding-top: 9px;
+}
 
+
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-over{
+    width: 95vw;
+    height: 50vh;
+
+}
+
+.contact h2{
+    font-size: 40px;
+
+}
+.contact{
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.contact{
+    
+}
+
+#message{
+    height: 5em;
+    width: 99%;
+}
+
+
+
+
+.row1 {
+    width: 100vw;
+    height: 50vh;
+}
+
+
+
+
+.counter-box {
+    width: 200px;
+    height: 150px;
+    
+} 
+
+.slide{
+    width: 85vw;
+}
+
+.contact-info{
+    width: 60vw;
+}
+.contact-slide{
+    width: 40vw;
+}
+
+iframe{
+    width:20vw;
+}
+
+.date-time{
+    position: relative;
+}
+
+}
+
+
+@media screen and (max-width:694px) {
+    
     .hero {
         display: flex;
         flex-wrap: wrap;
@@ -839,58 +907,40 @@ button{
     }
     
     .contact h2{
-        font-size: 40px;
+        font-size: 28px;
+        
+
     
     }
-
     .contact{
         height: 50vh;
         display: flex;
         flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .input-box{
+        display: flex;
+        flex-direction: column;
+        width: 68vw;
+        margin-left: 23%;
     }
     
     #message{
         height: 5em;
-        width: 99%;
+        width: 70%;
+        margin-left: 16%;
     }
 
-    
+    .btn2{
+        width:67vw;
+        margin-left: 16%;
 
-    
-    .row1 {
-        width: 100vw;
-        height: 50vh;
     }
-    
-    
- 
-    
-    .counter-box {
-        width: 200px;
-        height: 150px;
-        
-    } 
-    
-    .slide{
-        width: 85vw;
-    }
-
-    .contact-info{
-        width: 60vw;
-    }
-    .contact-slide{
-        width: 40vw;
-    }
-
-    iframe{
-        width:20vw;
-    }
-
-    .date-time{
-        position: relative;
-    }
-
 }
+
 
 
 
@@ -1016,91 +1066,89 @@ button{
     padding-bottom: 8px;
 }
 /*--------------------renuja-----------------*/
-    #page2d1{
-        font-size: 9vw;
-    }
+#page2d1{
+    font-size: 9vw;
+}
+
+.search-box{
+    width: 90vw;
+    padding-top: 9px;
+}
+
+.image-over{
+    width: 59vw;
+    height: 49vh;
+}
+
+.input-box{
+    display: flex;
+    flex-direction: column;
+    width: 48vw;
+    margin-left: 33%;
+}
+
+#message{
+    width: 49vw;
+    font-size: 10px;
+    margin-left: 0px;
+
+}
+
+.btn2{
+    width: 49vw;
+    margin-left: 0px;
+
+}
+
+.contact h2{
+    font-size: 15px;
+    margin-top: 15px;
+
+}
+
+.row1 {
+    width: 100vw;
+    height: 50vh;
+}
+
+.counter-box {
+    width: 150px;
+    height: 100px;
+    font-size: 10px;
     
-    .search-box{
-        width: 90vw;
-        padding-top: 9px;
-    }
+} 
 
-
-    #container5 {
-        border: 2px solid red;
-    }
-
-    .image-over{
-        width: 59vw;
-        height: 49vh;
-    }
-
-    .input-box{
-        display: flex;
-        flex-direction: column;
-        width: 48vw;
-        margin-left: 33%;
-    }
-
-    #message{
-        width: 49vw;
-        font-size: 10px;
+.slide{
+    width: 85vw;
+    height: 85vh;
+    display: flex;
+    flex-wrap: wrap;
     
-    }
+}
 
-    .btn2{
-        width: 49vw;
+.t1{
+    font-size: 35px;
+}
 
-    }
+.contact-info{
+    width: 100vw;
+    height: 60vh;
+}
+.contact-slide{
+    width: 100vw;
+    height: 40vh;
+}
 
-    .contact h2{
-        font-size: 15px;
-        margin-top: 15px;
-    
-    }
-    
-    .row1 {
-        width: 100vw;
-        height: 50vh;
-    }
-    
-    .counter-box {
-        width: 150px;
-        height: 100px;
-        font-size: 10px;
-        
-    } 
-
-    .slide{
-        width: 85vw;
-        height: 85vh;
-        display: flex;
-        flex-wrap: wrap;
-        
-    }
-
-    .t1{
-        font-size: 35px;
-    }
-
-    .contact-info{
-        width: 100vw;
-        height: 60vh;
-    }
-    .contact-slide{
-        width: 100vw;
-        height: 40vh;
-    }
-
-    iframe{
-        width:30vw;
-    }
+iframe{
+    width:30vw;
+}
 
 
-    table{
-        width:75vw;
-        font-size: 10px;
-    }
+table{
+    width:75vw;
+    font-size: 10px;
+}
+
 
 
 }

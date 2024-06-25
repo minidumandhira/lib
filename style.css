@@ -681,14 +681,18 @@ tr:nth-child(odd){
 /*-------------------------------------R Media Query------------------------------*/
 
 
-HEAD
-/*@media only screen  and (max-width:767px){
-    #container1{
-        width: auto;
-        height: 100vh;*/
+
+
 
 @media screen and (max-width: 768px) {
+    #container1{
+        width: auto;
+        height: 100vh;
+    }
+    .backvideo{
+        height: 100px;
 
+    }
     #page2d1{
         font-size: 6vw;
 

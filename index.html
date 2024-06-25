@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-library</title>
     <link rel="stylesheet" href="style.css">
-
+    <!------------------------------minindu-------------->
+    <script src="https://kit.fontawesome.com/0b48640093.js" crossorigin="anonymous"></script>
 
     <!--------------------Renuja------------------------->
    
@@ -43,7 +44,11 @@
                     <li><a href="#container4">COLLECTION</a></li>
                     <li><a href="#container5">SIGN UP</a></li>
                     <li><a href="#container6">ABOUT</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    
                 </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+
             </nav>
         
         <div class="ani" >
@@ -130,14 +135,14 @@
      <h2 class="topic">COLLECTION</h2>
      <div class="cato">
         <div class="content2">
-            <img src="images/classic.jpg">
+            <img src="images/classic.jpg" class="q1" >
             <h4 class="m1">CLASSIC</h4>
             <div>
             <button class="z4">VISIT</button>
             </div>
          </div>
          <div class="content2">
-            <img src="images/romantic.jpg">
+            <img src="images/romantic.jpg" class="q1">
             <h4 class="m1">ROMANTIC </h4>
             <div>
             <button class="z4">VISIT</button>
@@ -145,7 +150,7 @@
          </div>
 
          <div class="content2">
-            <img src="images/science.jpg">
+            <img src="images/science.jpg" class="q1">
             <h4 class="m1">FICTION</h4>
             <div>
             <button class="z4">VISIT</button>
@@ -153,14 +158,14 @@
          </div>
 
          <div class="content2">
-            <img src="images/kids.jpg">
+            <img src="images/kids.jpg" class="q1">
             <h4 class="m1">KIDS </h4>
             <div>
             <button class="z4">VISIT</button>
             </div>
          </div>
          <div class="content2">
-            <img src="images/political.jpg">
+            <img src="images/political.jpg" class="q1">
             <h4 class="m1"> POLITICAL </h4>
             <div>
             <button class="z4">VISIT</button>
@@ -168,7 +173,7 @@
          </div>
 
          <div class="content2">
-            <img src="images/history.jpg">
+            <img src="images/history.jpg" class="q1">
             <h4 class="m1">WORLD history</h4>
             <div>
             <button class="z4">VISIT</button>
@@ -176,7 +181,7 @@
          </div>
 
          <div class="content2">
-            <img src="images/magazine.jpg">
+            <img src="images/magazine.jpg" class="q1">
             <h4 class="m1">MAGAZINES </h4>
             <div>
             <button class="z4">VISIT</button>
@@ -401,7 +406,15 @@
           });
       });
  </script>
-
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right= "0";
+    }
+    function closemenu(){
+        sidemenu.style.right= "-200px";
+    }
+</script>
 
   
 </body>

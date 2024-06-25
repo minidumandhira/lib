@@ -315,7 +315,7 @@ button{
     color: aliceblue;
     padding-left: 10px;
 }
-img{
+.q1{
     width: 200px;
     height: 180px;
     align-items: center;
@@ -326,7 +326,7 @@ img{
 .z4{
     background:	#4B3619 ;
 }
-.m1 {
+.m1{
     text-align: center;
     color: aliceblue;
     background-color: #a88455;
@@ -664,3 +664,130 @@ tr:nth-child(odd){
     font-size: 2.5em;
 }
 
+/*--------------css for small screens---------*/
+
+nav  .fa-solid{
+    display: none;
+}
+
+
+@media only screen  and (max-width:600px){
+    #container1{
+        width: auto;
+        height: 100vh;
+    }
+    .backvideo{
+        
+       
+        height: auto;
+        
+    }
+    .wel{
+        margin-top: 50%;
+        font-size: 30px;
+    }
+    .slg2{
+        padding-top: 10%;
+    }
+    nav .fa-solid{
+        display: block;
+        font-size: 20px;
+        padding-right: 5%;
+    }
+
+    nav ul{
+        background: linear-gradient(1deg, #fff,#a08679 );
+        position: fixed;
+        top: 0;
+        right: -200px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+    }
+    nav ul li{
+        display: block;
+        margin: 25px;
+    }
+    nav ul .fa-solid{
+        position:absolute ;
+        top: 25px;
+        left:20px;
+        cursor: pointer;
+    }
+    #container3{
+        
+        height: 100vh;
+        display: flex;
+        
+    }
+    .content {
+     width: 20%;
+    margin: 8px;
+    box-sizing: border-box;
+    float: left;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 10px;
+    position:relative;
+    flex-wrap: wrap;
+   
+    
+    
+    
+    }
+    img{
+        width: 70px;
+        height: 50px;
+    }
+
+    button{
+        text-align: center;
+        font-size:14px;
+    }
+   .title{
+    font-size: 18px;
+}
+   #container4{
+    height: 100vh;
+    
+
+    
+   }
+
+   .cato{
+    
+    
+    padding-bottom: 15%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,2fr));
+    grid-gap: 10px;
+    margin-top: 10px;
+   display: block;
+  
+    
+    
+    
+} 
+.content2{
+    width: 100px;
+    height: 100px;
+    margin: 30px;
+    padding-bottom: 3%;
+    padding-top: 1%;
+}
+.q1{
+    width:90px;
+    height: 88px;
+}
+.m1{
+    
+    font-size: 15px;
+   
+}
+.topic{
+    font-size: 16px;
+    
+    
+}
+}

@@ -316,7 +316,7 @@ button{
     color: aliceblue;
     padding-left: 10px;
 }
-img{
+.q1{
     width: 200px;
     height: 180px;
     align-items: center;
@@ -682,17 +682,135 @@ tr:nth-child(odd){
 
 
 
-
+nav .fa-solid{
+    display: none;
+}
 
 @media screen and (max-width: 768px) {
+/*---------minindu-----------------------------------*/
     #container1{
         width: auto;
         height: 100vh;
     }
     .backvideo{
-        height: 100px;
+        height: auto;
 
     }
+    .wel{
+        font-size: 30px;
+        padding-top: 50%;
+    }
+    .slg2{
+        padding-bottom: 3%;
+    }
+    
+    nav .fa-solid{
+        display: block;
+        font-size: 30px;
+        padding-right: 3%;
+    }
+
+    nav ul{
+        background: linear-gradient(-45deg, #fff,#a08679);
+        position: fixed;
+        top: 0;
+        right: -200px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
+    }
+
+    nav ul li{
+        display: block;
+        margin: 25px;
+    }
+
+    nav ul .fa-solid{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    }
+
+/*-----------container3---------------------------*/
+
+#container3{
+    
+    height: 100%;
+    display: flex;
+    
+}
+
+.content{
+    height: auto;
+    width: 100px;
+    margin: 10px;
+    box-sizing: border-box;
+    display: block;
+}   
+
+img{
+    width: 60px;
+    height: 50px;
+    
+}
+button{
+    text-align: center;
+    font-size:13px;
+}
+.title{
+    
+    padding-left: 2%;
+    font-size: 10px;
+    
+}   
+
+/*----------------------container4-------------------*/
+#container4{
+    
+   
+    height: auto;
+    display: flex;  
+}
+
+.cato{
+    
+    height: auto;
+    padding-bottom: 15%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(25px,2fr));
+    grid-gap: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.content2{
+    width: 100px;
+    margin: 30px;
+    height: 90px;  
+    
+}
+
+.q1{
+    height: 80px;
+    width: 90px;
+}
+.topic{
+    font-size: 15px;
+    padding-left: 10px;
+}
+.m1 {
+    
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*----------------------Renuja-----------------------*/
     #page2d1{
         font-size: 6vw;
 
@@ -777,7 +895,127 @@ tr:nth-child(odd){
 
 
 @media screen and (max-width: 480px) {
+/*---------------minindu-----------------------*/
+#container1{
+    width: auto;
+    height: 100vh;
+}
+.backvideo{
+    height: auto;
+
+}
+.wel{
+    font-size: 19px;
+    padding-top: 50%;
+}
+.slg2{
+    padding-bottom: 2%;
+}
+
+nav .fa-solid{
+    display: block;
+    font-size: 20px;
+    padding-right: 2%;
+}
+
+nav ul{
+    background: linear-gradient(-45deg, #fff,#a08679);
+    position: fixed;
+    top: 0;
+    right: -120px;
+    width: 170px;
+    height: 100vh;
+    padding-top: 40px;
+    z-index: 2;
+    transition: right 0.5s;
+}
+
+nav ul li{
+    display: block;
+    margin: 20px;
+}
+
+nav ul .fa-solid{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    cursor: pointer;
+}
+/*-----------container3---------------------------*/
+
+#container3{
+    
+    height: 100%;
+    display: flex;
+    
+}
+
+.content{
+    height: auto;
+    width: 70px;
+    margin: 8px;
+    box-sizing: border-box;
+    display: block;
+}   
+
+img{
+    width: 40px;
+    height: 30px;
+    
+}
+button{
+    text-align: center;
+    font-size:10px;
+}
+.title{
+    
+    padding-left: 2%;
+    font-size: 7px;
+    
+}   
+
+/*----------------------container4-------------------*/
+#container4{
+    
    
+    height: auto;
+    display: flex;  
+}
+.cato{
+    
+    height: auto;
+    padding-bottom: 15%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(25px,2fr));
+    grid-gap: 8px;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.content2{
+    width: 80px;
+    margin: 20px;
+    height: 70px;  
+    
+}
+
+.q1{
+    height: 50px;
+    width: 60px;
+}
+.topic{
+    font-size: 10px;
+    padding-left: 8px;
+}
+.m1 {
+    
+    font-size: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+/*--------------------renuja-----------------*/
     #page2d1{
         font-size: 9vw;
     }
